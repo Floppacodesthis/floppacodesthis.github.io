@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .button{
+        padding: 5px 10px;
+        border: none;
+        color: rgb(160, 160, 160);
+
+        transition-duration: 0.3s;
+
+        margin: 4px 2px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .button1{
+        background-color: rgb(170, 170, 170);
+        color: black;
+        border: 2px solid black;
+        
+    }
+    .button1:hover{
+        background-color: rgb(116, 116, 255);
+        color: white;
+    }
+    
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p{
+        font-size: 155%;
+    
+    }
+
+    li{
+        font-size: 155%;
+    }
+
+    a:link{
+        color: black;
+        text-decoration:none;
+    }
+    a:hover{
+        color: black;
+        text-decoration: underline;
+    }
+    a:visited{
+        color: black;
+        text-decoration: underline;
+    }
+
+
+    header{
+        padding: 30px;
+        font-size: 200%;
+        background-color: rgb(100, 100, 100);
+        color: white;
+        text-decoration: none;
+    }
+</style>
+<head>
+    <title>Sam's Portfolio</title>
+</head>
+
+<body style="background-color: rgb(206, 206, 206); color: black;">
+
+    <header>
+        <h1>SAM</h1>
+    </header>
+
+    <article style="font: size 170%; background-color: rgb(128, 128, 128);">
+        <h1 style="font-size: 180%; text-decoration: underline;">General Information</h1>
+        <p>
+            Full name: Sam Gichure <br>
+            Age: 12 (as of 14/04/2025) <br>
+            Date of birth: 27/09/2012 <br>
+            School: <button class="button button1" type="button" onclick="opensite('https://linkedin.com/company/whitestar-group-of-schools/?originalSubdomain=ke')">Whitestar -- group of schools</button><br>
+            Place of birth: Kenya <br>
+        </p>
+        <h1 style="font-size: 180%; text-decoration: underline;">Fluent Coding Languages</h1>
+        <ul>
+
+
+            <!--<li> Python: 2 years of experince (as of 14/04/2025)</li>
+            <li> HTML, CSS, Javascript: 1 week of experince (as of 14/04/2025)</li>-->
+        </ul>
+        <h2 style="font-size: 175%; text-decoration: underline;">Digital Interests</h2>
+        <ul>
+            <li><button class="button button1" type="button" onclick="opensite('https://en.wikipedia.org/wiki/Software_development')">Software development</button></li>
+            <li><button class="button button1" type="button" onclick="opensite('https://en.wikipedia.org/wiki/White_hat_(computer_security)')">Ethical hacking/cybersecurity</button></li>
+            <li><button class="button button1" type="button" onclick="opensite('https://en.wikipedia.org/wiki/Frontend_and_backend')">Web development (back-end)</button></li>
+        </ul>
+
+        <h2 style="font-size: 175%; text-decoration: underline;">Sports Interests</h2>
+        <ul>
+            <li><button class="button button1" type="button" onclick="opensite('https://en.wikipedia.org/wiki/Mountain_biking')">Cycling (Mountain Mountain biking)</button></li>
+            <li><button class="button button1" type="button">Skateboarding</button></li>
+            <li><button class="button button1" type="button">Football</button></li>
+            <li>cats</li>
+        </ul>
+        
+        <footer style="background-color: rgb(184, 184, 184);">
+            <address>
+                Github: <button class="button button1" type="button" onclick="opensite('https://github.com/Floppacodesthis')">Sam Gichure</button>
+            </address>
+        </footer>
+
+
+    </article>
+</body>
+</html>
+
+<script>
+    function opensite(x){
+        window.open(x)
+    }
+</script>
