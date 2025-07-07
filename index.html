@@ -2,43 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Sam Gichure – Portfolio</title>
+  <title>Sam Gichure – Developer Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    * {
-      box-sizing: border-box;
-    }
     body {
       font-family: 'Inter', sans-serif;
-      background: #f2f2f2;
       margin: 0;
-      padding: 0;
+      background: #f4f4f4;
       color: #333;
     }
     .container {
       max-width: 800px;
-      margin: 50px auto;
-      padding: 40px;
+      margin: 60px auto;
       background: white;
       border-radius: 10px;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-    }
-    h1, h2 {
-      color: #111;
-      margin-bottom: 10px;
+      padding: 40px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
     }
     h1 {
-      font-size: 2.2rem;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
     }
     h2 {
-      margin-top: 30px;
+      margin-top: 40px;
+      font-size: 1.5rem;
+      color: #007acc;
     }
     p, li {
       font-size: 1rem;
-      line-height: 1.6;
+      line-height: 1.7;
     }
     ul {
       padding-left: 20px;
+    }
+    .tag {
+      display: inline-block;
+      background: #e0e0e0;
+      color: #222;
+      padding: 4px 10px;
+      margin: 4px;
+      border-radius: 5px;
+      font-size: 0.9rem;
     }
     a {
       color: #007acc;
@@ -47,26 +51,54 @@
     a:hover {
       text-decoration: underline;
     }
+    .footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #888;
+      margin-top: 40px;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Sam Gichure</h1>
-    <p>Welcome to my portfolio. Work in progress 👷‍♂️</p>
+    <p><strong>Python & JavaScript developer with a C-powered side hustle.</strong></p>
+    <p>I've been coding for 2 years and enjoy solving algorithm problems, building tools, and experimenting with software & hardware like Arduino. I mostly write Python (my favorite), but also use JavaScript for web stuff and React (learning it now, Vite gang rise up). C/C++ only enter the chat when I need speed.</p>
 
-    <h2>About Me</h2>
-    <p>I like coding cool stuff like this site. I use HTML, CSS, Python, and whatever’s fun to break.</p>
+    <h2>🔧 Favorite Tools & Tech</h2>
+    <div>
+      <span class="tag">Python</span>
+      <span class="tag">JavaScript</span>
+      <span class="tag">C</span>
+      <span class="tag">C++</span>
+      <span class="tag">React</span>
+      <span class="tag">Node.js</span>
+      <span class="tag">Vite</span>
+      <span class="tag">Arduino</span>
+      <span class="tag">WSL (Ubuntu 24.04)</span>
+      <span class="tag">VSCode</span>
+    </div>
 
-    <h2>Projects</h2>
+    <h2>💻 Projects & Interests</h2>
     <ul>
-      <li><strong>Project 1:</strong> My Portfolio Website</li>
-      <li><strong>Project 2:</strong> Command-line tools in Python</li>
-      <li><strong>Project 3:</strong> Random hacking experiments</li>
+      <li>14 LeetCode problems solved so far — <a href="https://leetcode.com/u/vmAFk3ppvs/" target="_blank">View profile</a></li>
+      <li>Currently learning: React, Vite, and web animation tricks</li>
+      <li>Interested in software development, problem solving, and cybersecurity</li>
+      <li>Built a bunch of random tools for fun (including one to scrape my own GitHub Pages source code 😎)</li>
     </ul>
 
-    <h2>Contact</h2>
+    <h2>🧠 Philosophy</h2>
+    <p>
+      I believe in clean code, minimalist tools, and cats. I enjoy Python for its chill syntax, JavaScript for its chaos, and C/C++ when performance slaps me in the face. Not a huge fan of Windows, but WSL has my back (for now).
+    </p>
+
+    <h2>📬 Contact</h2>
     <p>Email: <a href="mailto:sam@example.com">sam@example.com</a></p>
     <p>GitHub: <a href="https://github.com/Floppacodesthis" target="_blank">Floppacodesthis</a></p>
+
+    <div class="footer">
+      Built with VSCode, caffeine, and occasional screaming.
+    </div>
   </div>
 </body>
 </html>
